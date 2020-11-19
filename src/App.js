@@ -40,10 +40,11 @@ function App() {
         url: 'https://www.linkedin.com/in/pannachow/',
       },
     ],
-    font: 'Montserrat',
     primaryColor: '#fff',
     primaryText: 'PANNA CHOW',
+    primaryFont: '28px Montserrat',
     secondaryText: 'Amsterdam, The Netherlands',
+    secondaryFont: '16px Montserrat',
   };
 
   return (
