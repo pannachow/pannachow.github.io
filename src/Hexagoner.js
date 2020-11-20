@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { start } from 'hexagoner';
 
 const canvasStyle = {
-  width: '500px',
+  width: '520px',
   height: '300px',
 };
 

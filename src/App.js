@@ -14,37 +14,45 @@ const centerStyle = {
   transform: 'translate(-50%, -50%)',
 };
 
+const avatarSize = 100;
+const iconSize = 50;
+
 function App() {
   const props = {
     shapes: [
-      { color: '#fff', src: './panna.jpg', width: 96, height: 96 },
       {
-        color: 'white',
+        color: '#ffffff',
+        src: './panna.jpg',
+        width: avatarSize,
+        height: avatarSize,
+      },
+      {
+        color: '#e1306c',
         src: './instagram.png',
-        width: 60,
-        height: 60,
+        width: iconSize,
+        height: iconSize,
         url: 'https://www.instagram.com/miss.pannapanna/',
       },
       {
         color: '#171516',
         src: './github.png',
-        width: 60,
-        height: 60,
+        width: iconSize,
+        height: iconSize,
         url: 'https://github.com/pannachow',
       },
       {
         color: '#0274b3',
         src: './linkedin.png',
-        width: 60,
-        height: 60,
+        width: iconSize,
+        height: iconSize,
         url: 'https://www.linkedin.com/in/pannachow/',
       },
     ],
     primaryColor: '#fff',
     primaryText: 'PANNA CHOW',
-    primaryFont: '28px Montserrat',
+    primaryFont: '30px Montserrat',
     secondaryText: 'Amsterdam, The Netherlands',
-    secondaryFont: '16px Montserrat',
+    secondaryFont: '18px Montserrat',
   };
 
   return (
