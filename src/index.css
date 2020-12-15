@@ -5,6 +5,7 @@ body {
   background: #4568DC;
   background: -webkit-linear-gradient(to left, #4568DC , #B06AB3);
   background: linear-gradient(to left, #4568DC , #B06AB3);
+  background-attachment: fixed;
 }
 
 html,
