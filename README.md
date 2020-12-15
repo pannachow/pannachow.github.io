@@ -11,7 +11,8 @@ npm run predeploy
 Commit changes:
 
 ```sh
-git commit -am "deploy"
+git add -A
+git commit -m "deploy"
 ```
 
 Deploy to `gh-pages` branch:
