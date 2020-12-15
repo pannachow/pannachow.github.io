@@ -1,11 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { start } from 'hexagoner';
 
-const canvasStyle = {
-  width: '520px',
-  height: '300px',
-};
-
 export default function Hexagoner(props) {
   const canvasRef = useRef(null);
 
@@ -14,5 +9,5 @@ export default function Hexagoner(props) {
     start(canvasRef.current, props);
   }, [props]);
 
-  return <canvas ref={canvasRef} style={canvasStyle}></canvas>;
+  return <canvas ref={canvasRef} style={props.canvasStyle}></canvas>;
 }

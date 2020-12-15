@@ -1,17 +1,18 @@
 import React from 'react';
 import Hexagoner from './Hexagoner';
 
-const bgStyle = {
+const containerStyle = {
   margin: 0,
   width: '100%',
+  minWidth: '520px', // should match canvas width
   height: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 };
-
-const centerStyle = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
+const canvasStyle = {
+  width: '520px',
+  height: '300px',
 };
 
 const avatarSize = 100;
@@ -53,13 +54,12 @@ function App() {
     primaryFont: '30px Montserrat',
     secondaryText: 'Amsterdam, The Netherlands',
     secondaryFont: '18px Montserrat',
+    canvasStyle,
   };
 
   return (
-    <div style={bgStyle}>
-      <div style={centerStyle}>
-        <Hexagoner {...props} />
-      </div>
+    <div style={containerStyle}>
+      <Hexagoner {...props} />
     </div>
   );
 }
