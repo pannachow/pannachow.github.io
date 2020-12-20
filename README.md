@@ -1,22 +1,19 @@
 # pannachow.github.io
 
-## Deployment
-
-Create deployment files:
+Install dependencies:
 
 ```sh
-npm run predeploy
+npm install
 ```
 
-Commit changes:
+Run locally:
 
 ```sh
-git add -A
-git commit -m "deploy"
+npm start
 ```
 
-Deploy to `gh-pages` branch:
+Deploy to GitHub Pages:
 
 ```sh
-git push origin `git subtree split --prefix dist main`:gh-pages --force
+npm deploy
 ```
