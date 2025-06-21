@@ -1,7 +1,7 @@
 {
   "name": "react-hexagoner-example",
   "version": "0.1.0",
-  "homepage": "https://pannachow.io",
+  "homepage": "https://pannachow.github.io",
   "private": true,
   "dependencies": {
     "gh-pages": "^3.1.0",
